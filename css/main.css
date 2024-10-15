@@ -5,15 +5,15 @@ body, html {
     margin: 0;
     padding: 0;
     font-family: 'Open Sans', sans-serif;
-    background-color: #fdf6e3; /* Calming cream color */
+    background-color: #fdfaf2; /* Calming cream color */
     scroll-behavior: smooth;
     color: #2c3e50; /* Deep calming blue for text */
 }
 
 /* Fixed Banner Styles */
 .fixed-banner {
-    background-color: #4a90e2; /* Blue banner background */
-    color: white;
+    background-color: #dbe1e9ec; /* Blue banner background */
+    color: rgb(4, 3, 70);
     padding: 15px 30px;
     position: fixed;
     top: 0;
