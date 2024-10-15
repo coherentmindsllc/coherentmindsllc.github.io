@@ -5,7 +5,7 @@ body, html {
     margin: 0;
     padding: 0;
     font-family: 'Open Sans', sans-serif;
-    background-color: #fdfaf2; /* Calming cream color */
+    background-color: #dbe1e9ec; /* Calming cream color */
     scroll-behavior: smooth;
     color: #2c3e50; /* Deep calming blue for text */
 }
@@ -55,7 +55,7 @@ header {
     align-items: center;
     height: 80vh;
     background: url('home-background.jpg') no-repeat center center/cover;
-    color: white;
+    color: rgb(4, 3, 70);
     text-align: center;
     padding: 20px;
 }
@@ -74,7 +74,7 @@ header {
 .content-section {
     padding: 80px 20px;
     text-align: center;
-    background-color: #fdf6e3; /* Background is cream */
+    background-color: #dbe1e9ec; /* Background is cream */
 }
 
 .section-header {
