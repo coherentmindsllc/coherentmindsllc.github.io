@@ -149,4 +149,8 @@ form label {
 
 form input, form textarea {
     width: 100%;
-    padding: 
+    padding: 15px; /* Specify the padding value */
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
