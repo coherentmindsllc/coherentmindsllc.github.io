@@ -5,14 +5,14 @@ body, html {
     margin: 0;
     padding: 0;
     font-family: 'Open Sans', sans-serif;
-    background-color: #dbe1e9ec; /* Calming cream color */
+    background-color: #ffffff; /* Calming cream color */
     scroll-behavior: smooth;
     color: #2c3e50; /* Deep calming blue for text */
 }
 
 /* Fixed Banner Styles */
 .fixed-banner {
-    background-color: #dbe1e9ec; /* Blue banner background */
+    background-color: #ffffff; /* Blue banner background */
     color: rgb(4, 3, 70);
     padding: 15px 30px;
     position: fixed;
@@ -74,7 +74,7 @@ header {
 .content-section {
     padding: 80px 20px;
     text-align: center;
-    background-color: #dbe1e9ec; /* Background is cream */
+    background-color: #ffffff; /* Background is cream */
 }
 
 .section-header {
@@ -114,7 +114,7 @@ header {
 }
 
 .service-card {
-    background-color: white;
+    background-color: #dbe1e9ec;
     padding: 30px;
     border-radius: 15px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
