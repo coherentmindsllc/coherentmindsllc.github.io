@@ -12,41 +12,44 @@ body, html {
 
 /* Fixed Banner Styles */
 .fixed-banner {
-    background-color: #ffffff; /* Blue banner background */
+    background-color: #ffffff;
     color: rgb(4, 3, 70);
     padding: 15px 30px;
     position: fixed;
     top: 0;
     width: 100%;
-    z-index: 999; /* High z-index to stay above content */
+    z-index: 999;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.fixed-banner .logo {
-    font-size: 1.8em;
-    font-weight: 700;
-    font-family: 'Poppins', sans-serif;
+.fixed-banner .logo img {
+    height: 50px; /* Adjusts logo size */
+    margin-right: 20px;
+    vertical-align: middle;
 }
 
-.fixed-banner .banner-icons {
+/* Banner Links */
+.banner-links {
     display: flex;
     gap: 20px;
 }
 
-.fixed-banner .banner-icons i {
-    font-size: 1.5em;
-    cursor: pointer;
+.banner-links a {
+    font-size: 0.9em; /* Smaller font size */
+    color: rgb(4, 3, 70); /* Match header color */
+    text-decoration: none;
+    font-weight: normal; /* Not bold */
     transition: color 0.3s ease;
 }
 
-.fixed-banner .banner-icons i:hover {
-    color: #ff5a5f; /* Change color on hover */
+.banner-links a:hover {
+    color: #ff5a5f; /* Subtle hover effect */
 }
 
 header {
-    margin-bottom: 100px; /* Create space below fixed header */
+    margin-bottom: 100px; /* Space below fixed header */
 }
 
 .home-section {
@@ -74,7 +77,7 @@ header {
 .content-section {
     padding: 80px 20px;
     text-align: center;
-    background-color: #ffffff; /* Background is cream */
+    background-color: #ffffff;
 }
 
 .section-header {
@@ -84,12 +87,12 @@ header {
 .section-header h2 {
     font-size: 2.2em;
     font-weight: 600;
-    color: #2c3e50; /* Deep calming blue for section headers */
+    color: #2c3e50;
 }
 
 .section-header p {
     font-size: 1.1em;
-    color: #4d648d; /* Softer shade of blue for descriptions */
+    color: #4d648d;
 }
 
 .about-content {
@@ -119,7 +122,7 @@ header {
     border-radius: 15px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
-    color: #2c3e50; /* Deep blue for text */
+    color: #2c3e50;
 }
 
 .service-card:hover {
@@ -146,12 +149,12 @@ form label {
     font-weight: 600;
     margin-bottom: 5px;
     display: block;
-    color: #2c3e50; /* Deep blue for form labels */
+    color: #2c3e50;
 }
 
 form input, form textarea {
     width: 100%;
-    padding: 15px; /* Specify the padding value */
+    padding: 15px;
     margin: 5px 0;
     border: 1px solid #ddd;
     border-radius: 8px;
