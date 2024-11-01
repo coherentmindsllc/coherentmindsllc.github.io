@@ -5,9 +5,9 @@ body, html {
     margin: 0;
     padding: 0;
     font-family: 'Open Sans', sans-serif;
-    background-color: #ffffff; /* Calming cream color */
+    background-color: #ffffff;
     scroll-behavior: smooth;
-    color: #2c3e50; /* Deep calming blue for text */
+    color: #2c3e50;
 }
 
 /* Fixed Banner Styles */
@@ -20,142 +20,29 @@ body, html {
     width: 100%;
     z-index: 999;
     display: flex;
-    justify-content: space-between;
+    justify-content: center; /* Center the content in the header */
     align-items: center;
 }
 
 .fixed-banner .logo img {
-    height: 50px; /* Adjusts logo size */
-    margin-right: 20px;
+    height: 50px;
+    margin-right: 40px; /* Space between logo and links */
     vertical-align: middle;
 }
 
-/* Banner Links */
 .banner-links {
     display: flex;
     gap: 20px;
 }
 
 .banner-links a {
-    font-size: 0.9em; /* Smaller font size */
-    color: rgb(4, 3, 70); /* Match header color */
-    text-decoration: none;
-    font-weight: normal; /* Not bold */
+    font-size: 0.9em;
+    color: rgb(4, 3, 70);
+    text-decoration: none; /* Removes the underline */
+    font-weight: normal;
     transition: color 0.3s ease;
 }
 
 .banner-links a:hover {
-    color: #ff5a5f; /* Subtle hover effect */
-}
-
-header {
-    margin-bottom: 100px; /* Space below fixed header */
-}
-
-.home-section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 80vh;
-    background: url('home-background.jpg') no-repeat center center/cover;
-    color: rgb(4, 3, 70);
-    text-align: center;
-    padding: 20px;
-}
-
-.home-content h1 {
-    font-size: 3em;
-    margin-bottom: 20px;
-}
-
-.home-content p {
-    font-size: 1.2em;
-    margin-bottom: 30px;
-}
-
-/* Content Section Styles */
-.content-section {
-    padding: 80px 20px;
-    text-align: center;
-    background-color: #ffffff;
-}
-
-.section-header {
-    margin-bottom: 50px;
-}
-
-.section-header h2 {
-    font-size: 2.2em;
-    font-weight: 600;
-    color: #2c3e50;
-}
-
-.section-header p {
-    font-size: 1.1em;
-    color: #4d648d;
-}
-
-.about-content {
-    display: flex;
-    align-items: center;
-    gap: 40px;
-    max-width: 900px;
-    margin: auto;
-}
-
-.about-image {
-    max-width: 50%;
-    border-radius: 15px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.services-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 30px;
-    padding: 0 20px;
-}
-
-.service-card {
-    background-color: #dbe1e9ec;
-    padding: 30px;
-    border-radius: 15px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
-    color: #2c3e50;
-}
-
-.service-card:hover {
-    transform: translateY(-5px);
-}
-
-.service-icon {
-    font-size: 3em;
-    color: #4a90e2;
-    margin-bottom: 20px;
-}
-
-.contact-section .contact-form {
-    max-width: 600px;
-    margin: auto;
-    text-align: left;
-}
-
-.form-group {
-    margin-bottom: 20px;
-}
-
-form label {
-    font-weight: 600;
-    margin-bottom: 5px;
-    display: block;
-    color: #2c3e50;
-}
-
-form input, form textarea {
-    width: 100%;
-    padding: 15px;
-    margin: 5px 0;
-    border: 1px solid #ddd;
-    border-radius: 8px;
+    color: #ff5a5f; /* Subtle hover color */
 }
